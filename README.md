@@ -1,8 +1,8 @@
 # mocha-unhandled-rejections-example
 
-It is passed, but it should be failed...
+It is passed, but We want to fail it...
 
-```
+```js
 async function fail() {
     throw new Error("FAIL!!");
 }
