@@ -1,0 +1,31 @@
+{
+  "name": "mocha-unhandled-rejections-example",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/azu/mocha-unhandled-rejections-example",
+  "bugs": {
+    "url": "https://github.com/azu/mocha-unhandled-rejections-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/mocha-unhandled-rejections-example.git"
+  },
+  "license": "MIT",
+  "author": "azu",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "main": "lib/mocha-unhandled-rejections-example.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha *.js"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  }
+}
