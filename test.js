@@ -2,6 +2,6 @@ async function fail() {
     throw new Error("FAIL!!");
 }
 
-it("is unhandled rejection", () => {
+it("unhandled rejection", () => {
     fail();
 });
